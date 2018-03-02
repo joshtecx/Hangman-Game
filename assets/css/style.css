@@ -5,8 +5,8 @@ body {
 header {
     text-align: center;
     font-size: 50px;
-    background: cadetblue;
-    color: orange;
+    background:#0164A8;
+    color: #ACBDBA;
     padding: 30px;
     border-bottom: 3px solid blanchedalmond;
     margin-bottom: 20px;
@@ -15,7 +15,7 @@ header {
 #start {
     text-align: center;
     font-size: 30px;
-    color: cadetblue;
+    color: #001D4A;
     padding: 20px;
     margin-bottom: 50px;
     
@@ -26,24 +26,26 @@ header {
     margin-left: 5%;
     font-size: 20px;
     line-height: 30px;
-    border: 3px solid orange;
+    border: 3px solid #ECA400;
     padding: 20px;
+    color: #ACBDBA;
+    background: #001D4A;
 }
 
 #gameBoard {
     float: right;
     margin-right: 5%;
     font-size: 30px;
-    border: 3px solid orange;
+    border: 3px solid #ECA400;
     padding: 20px;
-
-    
+    color: #ACBDBA;
+    background: #001D4A;
 }
 
 footer {
     clear: both;
     text-align: center;
-    background: orange;
+    background: #ECA400;
     color: #eee;
     padding: 30px;
     margin-top: 20px;
