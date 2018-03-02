@@ -1,5 +1,6 @@
 body {
-    background: #eee;
+    /* background: #eee; */
+    background: url("../images/bracket.png");
 }
 
 header {
@@ -9,14 +10,15 @@ header {
     color: #ACBDBA;
     padding: 30px;
     border-bottom: 3px solid blanchedalmond;
-    margin-bottom: 20px;
+    /* margin-bottom: 5px; */
 }
 
 #start {
     text-align: center;
     font-size: 30px;
+    background: #eee;
     color: #001D4A;
-    padding: 20px;
+    padding: 40px;
     margin-bottom: 50px;
     
 }
