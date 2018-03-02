@@ -1,14 +1,42 @@
-/* body {
-    
-} */
+body {
+    background: #eee;
+}
 
 header {
     text-align: center;
     font-size: 50px;
     background: cadetblue;
-    color: blanchedalmond;
+    color: orange;
     padding: 30px;
-    border-bottom: 3px solid #eee;
+    border-bottom: 3px solid blanchedalmond;
     margin-bottom: 10px;
+}
+
+#start {
+    text-align: center;
+    font-size: 30px;
+    color: cadetblue;
+    padding: 20px;
+    margin-bottom: 50px;
+    
+}
+
+#stats {
+    float: left;
+    margin-left: 5%;
+    font-size: 20px;
+    line-height: 30px;
+    border: 3px solid orange;
+    padding: 20px;
+}
+
+#gameBoard {
+    float: right;
+    margin-right: 5%;
+    font-size: 30px;
+    border: 3px solid orange;
+    padding: 20px;
+
+    
 }
 
