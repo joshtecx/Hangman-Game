@@ -34,25 +34,36 @@ var remianingLetters;
 
 // Functions
 
-function getWord() {
+// function getWord() {
 
     // pick random word
-    answer = words[Math.floor(Math.random() * words.length)];
-    console.log(answer);
+    // answer = words[Math.floor(Math.random() * words.length)];
+    // console.log(answer);
 
+    // // Set up answer after word is picked
+    // for (var i = 0; i < answer.length; i++) {
+    //     answerDisplay.push('_');
+    // }
+
+// }
+
+function setAnswer(){
     // Set up answer after word is picked
     for (var i = 0; i < answer.length; i++) {
         answerDisplay.push('_');
     }
-
 }
 
 // Restart when game is over
 function restartGame () {
-    getWord();
+    // pick random word
+    answer = words[Math.floor(Math.random() * words.length)];
+    console.log(answer);
+    // Reset game 
     remainingGuesses = 15;
     missedGuesses = [];
-    // answerDisplay = [];
+    answerDisplay = [];
+    setAnswer();
 }
 
 // wins/losses
@@ -60,12 +71,12 @@ function gameResults(){
     if (winCounter === answer.length) {
         alert("Nice win! Keep going for a National Championship!")
         wins++;
-        getWord();
+        restartGame();
     }
     else if (remainingGuesses === 0) {
             alert("You have been eliminated! Better luck next time!");
             losses++;
-            getWord();
+            restartGame();
         }
 }
 
@@ -83,7 +94,7 @@ function update(){
 
 
 // Display to HTML
-getWord();
+restartGame();
 document.querySelector("#wins").innerHTML = ""  + wins;
 document.querySelector("#losses").innerHTML = ""  + losses;
 document.querySelector("#remainingGuesses").innerHTML = ""  + remainingGuesses;

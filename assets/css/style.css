@@ -1,0 +1,14 @@
+/* body {
+    
+} */
+
+header {
+    text-align: center;
+    font-size: 50px;
+    background: cadetblue;
+    color: blanchedalmond;
+    padding: 30px;
+    border-bottom: 3px solid #eee;
+    margin-bottom: 10px;
+}
+
